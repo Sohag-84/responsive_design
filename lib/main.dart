@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:responsive_design/responsive/mobile_screen.dart';
 import 'package:responsive_design/responsive/web_screen.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Flutter responsive design',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
